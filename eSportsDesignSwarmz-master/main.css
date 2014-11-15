@@ -1,0 +1,470 @@
+body {
+  background-color: #ffffff;
+
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.remember {
+    padding: 10px;
+
+}
+.dropdown-menu .divider{
+    background-color:black;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color:#5a8700 ;
+
+}
+
+.dropdown-menu{
+    background-color:#7ead21;
+    border-radius: 6px;
+    visibility: visible;
+    opacity: 0.9;
+
+}
+
+
+.modal-body {
+    background: linear-gradient(to bottom,  #ffffff 0%,#e0fcbc 100%,#fcfcfc 100%);
+}
+.navbar-text > a{
+    text-decoration: none;
+}
+
+.gamelogos {
+
+}
+.signup {
+    padding:10px;
+    margin:10px;
+}
+.jumbotron {
+
+
+}
+.navbar-inverse{
+    height: 60px;
+    opacity: 0.9;
+}
+.navbar-inverse > a, a:hover{
+    color:#8c8c8c !important;
+}
+.navbar-fixed-bottom {
+    opacity: 1 !important;
+    height:70px;
+}
+.subheadings {
+    font-family: 'orbitron', sans-serif;
+}
+
+.jthead {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900 ;
+}
+
+.navlogo {
+    width:130px;
+    height:70px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#contact-form {
+    padding:0px 0 0 0;
+    position: relative;
+    width: 300px;
+}
+#contact-form .success
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+#contact-form textarea, #contact-form input {
+    margin:0;
+    box-shadow: 0 0 3px #b6b4ad;
+    font-size:13px;
+    border:none;
+    color:#424242;
+    padding:9px 12px;
+    outline:none;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+    border-radius: 5px;  }
+
+
+#contact-form input {
+    width:277px;
+}
+#contact-form textarea {
+    overflow:auto;
+    width:357px;
+    height:146px;
+    resize:none;
+    float:left;
+    margin: 0 0 0 0;
+}
+
+#contact-form label {
+    display:inline-block;
+    position: relative;
+    min-height:50px;
+}
+#contact-form label.message {
+    display:block;
+    padding-bottom:0;
+}
+#contact-form .link2 {
+    margin-left:30px;
+}
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}
+#contact-form .error, #contact-form .empty {
+    text-align:left;
+    color:red;
+    font-size:11px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+#contact-form .buttons2 {
+    overflow:hidden;
+    text-align:right;
+    position:relative;
+    clear:both;
+    padding-top:12px;
+}
+#contact-form .buttons2 a {
+    cursor:pointer;
+    margin-top:0;
+    text-align:center;
+}
+#contact-form span{
+    display:block;
+    margin: 0px 0 0 5px;
+}
+
+
+
+a, a:hover, a:focus, a:visited{
+    text-decoration:none;
+    color: #262626;
+
+}
+
+#loginform {
+    padding:0px 0 0 0;
+    position: relative;
+    width: 300px;
+}
+#loginform .success
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+#loginform textarea, #loginform input {
+    margin:0;
+    box-shadow: 0 0 3px #b6b4ad;
+    font-size:13px;
+    border:none;
+    color:#424242;
+    padding:9px 12px;
+    outline:none;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+    border-radius: 5px;  }
+
+
+#loginform input {
+    width:277px;
+}
+#loginform textarea {
+    overflow:auto;
+    width:357px;
+    height:146px;
+    resize:none;
+    float:left;
+    margin: 0 0 0 0;
+}
+
+#loginform label {
+    display:inline-block;
+    position: relative;
+    min-height:50px;
+}
+#loginform label.message {
+    display:block;
+    padding-bottom:0;
+}
+#loginform .link2 {
+    margin-left:30px;
+}
+#loginform .error, #contact-form .empty, #contact-form .success {display:none;}
+#loginform .error, #contact-form .empty {
+    text-align:left;
+    color:red;
+    font-size:11px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+#loginform .buttons2 {
+    overflow:hidden;
+    text-align:right;
+    position:relative;
+    clear:both;
+    padding-top:12px;
+}
+#loginform .buttons2 a {
+    cursor:pointer;
+    margin-top:0;
+    text-align:center;
+}
+#loginform span{
+    display:block;
+    margin: 0px 0 0 5px;
+}
+
+#jobs > div {
+    border: solid black 4px;
+}
+#sitemap {
+    min-width: 800px !important;
+}
+#bottext > li > a {
+    font-size: 14px;
+    margin:4px !important;
+    padding: 4px !important;
+}
+
+
+
+textarea#pmtext {
+    width:98%;
+    height:40px;
+    padding:1%;
+    border:#999 1px solid;
+}
+
+div.pm_wrap {
+    border: 1px solid #333;
+    margin-bottom: 5px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.pm_header {
+    background-color: #7ead21;
+    padding-left: 20px;
+}
+div.pm_post {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+#badgestext  div  p {
+    text-align: center;
+}
+#ads div a {
+
+    padding:10px;
+
+    display: inline-block;
+
+}
+#adbanner {
+    background-color: #222222;
+    width:100%;
+
+}
+#ads {
+    overflow:auto;
+    white-space: nowrap;
+    width:100%;
+    min-width: 900px;
+    margin:auto;
+}
+#socialbtns > a > img {
+    margin:10px;
+    padding: 10px;
+
+}
+#memSearch{
+    float:left;
+    margin:15px auto 15px 20px;
+    width: 120px;
+}
+#memSearchResults{
+    display: none;
+    width: 140px;
+    z-index: 5000;
+    background-color: #eee;
+    text-align: left;
+    position:fixed;
+    top:43px;
+    overflow-y:auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    max-height:100px;
+    color:#262626;
+}
+#memSearchResults a:hover, a:visited{
+    color:#262626;
+}
+#beta >a, a:hover, a:visited, a:focus{
+    color:#5a8700;
+}
+#beta {
+    margin-top: 10px;
+    margin-left:-20px;
+}
+#beta > a:hover{
+    color:#5a8700 !important;
+}
+
+#jobchoices img {
+    margin:10px;
+    padding: 10px;
+
+
+}
+
+#jobchoices {
+    overflow:auto;
+    white-space: nowrap;
+    width:1200px;
+    min-width: 600px;
+    margin:auto;
+
+}
+
+#jobchoices .row {
+    border:3px solid #54563F;
+    background-color: #f9f9f9;
+    width:600px;
+    margin:20px auto;
+    padding: 10px;
+    box-shadow: 0 10px 6px -6px #232323  ;
+
+}
+#jobchoices input {
+    margin-bottom:20px;
+}
+
+.leftimages {
+    margin-left:20px;
+}
+.leftimages img{
+    float:left;
+
+
+}
+.rightimages{
+    margin-right:20px;
+}
+.rightimages img{
+    float:right;
+
+}
+.jobimages {
+    font-size: 8px;
+    font-weight: lighter;
+}
+
+
+#jdform{
+    display: inline-block;
+    width:600px;
+
+    font-weight: bold;
+
+}
+#jdform input{
+    text-align: right;
+}
+#jdform textarea{
+    text-align: right;
+}
+#jdform label {
+    text-align: left;
+}
+
+#cb div {
+  background-image: url("images/1x1png.png");
+
+}
+
+#jobstable, th, td {
+    border: solid black 2px;
+}
+#jobstable {
+    width:80%;
+    margin:auto;
+}
+#jobstable th {
+    height:50px;
+    text-align: center;
+    background-color: #262626;
+    color:#5a8700;
+}
+#jobstable td {
+    text-align: left;
+    vertical-align: bottom;
+    height:40px;
+
+ }
+#jobview > span {
+    color:#5a8700;
+}
+
+#ourfees div {
+    background-image: url("images/1x1png.png");
+
+}
+#viewopts {
+    color:white!important;
+    list-style-type: none;
+
+
+}
+#viewopts li{
+    background-color: #5a8700;
+    width:100px;
+    margin:10px 10px 0 10px;
+    display: inline;
+    font-size: 20px;
+
+
+}
+#details span{
+    float:right;
+}
